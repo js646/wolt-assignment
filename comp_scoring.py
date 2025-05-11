@@ -24,10 +24,8 @@ if __name__ == "__main__":
 
     print(df)
 
-    # Filter rows where the comp_score is 100
     df_filtered = df[df['comp_score'] == 100.0]
 
-    # Display the filtered DataFrame
     print(df_filtered)
 
     df.to_csv("result.csv")
